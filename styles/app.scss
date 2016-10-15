@@ -90,6 +90,13 @@ body {
   }
 }
 
+.image__main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: right;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -109,11 +116,6 @@ body {
       border: 0.01rem solid $border;
     }
   }
-
-}
-
-.image__main {
-  width: 100%;
 }
 
 .row--middle {
@@ -169,7 +171,7 @@ body {
   }
 
   &__logo {
-    width: 45%;
+    width: 60%;
     margin: 0 auto;
   }
 }
