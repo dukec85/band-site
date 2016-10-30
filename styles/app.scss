@@ -75,6 +75,11 @@ body {
   font-family: Roboto, arial, sans-serif;
   color: $logo;
   background-color: $banner;
+
+  h1 {
+    font-size: 30pt;
+    font-weight: 600;
+  }
 }
 
 .projects-header {
@@ -145,6 +150,10 @@ body {
 .code {
   display: flex;
   flex-direction: column;
+}
+
+.songkick-widget {
+  font-size: 30pt;
 }
 
 .footer-container {
